@@ -1,6 +1,6 @@
 package contas;
 
-public class Referencia {
+public class TestaReferencia {
 
 	public static void main(String[] args) {
 		
