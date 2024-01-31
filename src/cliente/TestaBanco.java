@@ -12,15 +12,8 @@ public class TestaBanco {
 		christopher.profissao = "analista";
 		
 		Conta contaChristopher = new Conta();
-		contaChristopher.numero = 12345;
 		contaChristopher.deposita(300);
 		
-		contaChristopher.titular = christopher;
-		
-		System.out.println("Nome: " + contaChristopher.titular.nome);
-		System.out.println("Agencia: " + contaChristopher.agencia);
-		System.out.println("Nome: " + contaChristopher.numero);
-
 	}
 	
 }

@@ -8,9 +8,9 @@ import cliente.Cliente;
 //A conta deve conter: Saldo, agencia, numero e titular.
 public class Conta {
 	
-	public double saldo;
-	public int agencia = 0101;
-	public int numero;
+	private double saldo;
+	private int agencia = 0101;
+	private int numero;
 	public Cliente titular;
 	
 //Um método "void" é aquele que executa ação sem a necessidade de retornar algo.	
@@ -49,4 +49,25 @@ public class Conta {
 			return false;
 		}
 	}
+	
+	public double getSaldo(){
+		return this.saldo;
+	}
+	
+	public double getNumero() {
+		return this.numero;
+	}
+	
+	public double getAgencia() {
+		return this.agencia;
+	}
+	
+	public void setNumero(int novoNumero) {
+		this.numero = novoNumero;
+	}
+	
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
+
 }
